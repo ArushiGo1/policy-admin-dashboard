@@ -1,4 +1,8 @@
 function Header(){
-    return <div>DashBoard Header</div>
+    return <div>
+        <span>DashBoard Header</span>
+        <span style = {{float:"right"}}>Admin</span>
+        
+        </div>
 }
 export default Header;
